@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Barlow';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,61 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-family: 'Quattrocento Sans';
+  color: #1d3557;
+  margin-left: 5px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Quattrocento Sans';
+  color: #9e2a2b;
+  margin-left: 5px;
+}
+
+p {
+  font-family: 'Barlow';
+  margin-left: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #dabbed;
+}
+
+td {
+  font-family: 'Quattrocento Sans';
+}
+
+td.spring {
+  background-color: #ffe57c;
+}
+
+td.summer {
+  background-color: #fffce6;
+}
+
+td.autumn {
+  background-color: #e8be80;
+}
+
+td.winter {
+  background-color: #bbf2f2;
+}
+
+.red-colored {
+  color: red!important;
 }
