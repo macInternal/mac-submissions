@@ -1,0 +1,13 @@
+export const HOME = '/';
+export const CURRENT = '/current';
+export const OTHER = '/other';
+export const SIGN_IN = '/sign-in';
+export const SIGN_UP = '/sign-up';
+export const ACCOUNT = '/account';
+export const ADMIN = '/admin/users';
+export const PASSWORD_FORGET = '/pw-forget';
+export const ADMIN_DETAILS = '/admin/users/:id';
+export const SUBMIT_DETAILS = '/submit/:id';
+export const NOT_FOUND = '/404';
+export const SUBMIT = '/submit';
+export const NULL_PATH = '#';

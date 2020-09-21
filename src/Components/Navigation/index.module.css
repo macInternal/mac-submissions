@@ -1,9 +1,14 @@
-.topnav {
-  overflow: hidden;
+.nav {
   background-color: #02075d;
 }
 
-.topnav a {
+.topnav {
+  overflow: hidden;
+  background-color: #02075d;
+  color: #f2f2f2;
+}
+
+.topnav .navHeader {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -12,16 +17,24 @@
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #f2f2f2;
-  color: #3366BB;
+.topnav .navHeader:hover {
+  background-color: #9ca0d6;
+  color: #02075d;
 }
 
-.topnav a.active {
-  background-color: #f2f2f2;
-  color: #3366BB;
+.topnav .navHeader.active {
+  background-color: #9ca0d6;
+  color: #9c7711;
 }
 
 .topnavSelected {
-  color: red!important;
+  color: #ffbb00!important;
+}
+
+.topnavSelected:hover {
+  color: #02075d!important;
+}
+
+.login {
+  float: right!important;
 }
